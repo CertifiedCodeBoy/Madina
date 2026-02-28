@@ -1,0 +1,85 @@
+{
+  "tabs": {
+    "dashboard": "Dashboard",
+    "report": "Report",
+    "assistant": "Assistant",
+    "energy": "Energy",
+    "mobility": "Mobility"
+  },
+  "dashboard": {
+    "title": "Madina",
+    "subtitle": "Your city at a glance",
+    "aqi": "Air Quality",
+    "transit": "Live Transit",
+    "disruptions": "Road Disruptions",
+    "good": "Good",
+    "moderate": "Moderate",
+    "unhealthy": "Unhealthy",
+    "loading": "Fetching live data…"
+  },
+  "report": {
+    "title": "Report an Issue",
+    "subtitle": "Take a photo and let AI classify it",
+    "take_photo": "Take Photo",
+    "choose_photo": "Choose from Gallery",
+    "description": "Add a description (optional)",
+    "address": "Address",
+    "submit": "Submit Report",
+    "submitting": "Submitting…",
+    "success": "Report submitted! AI triage is processing your issue.",
+    "ai_result": "AI Triage Result",
+    "category": "Category",
+    "severity": "Severity",
+    "department": "Routed to",
+    "estimated": "Estimated resolution",
+    "days": "days",
+    "confidence": "Confidence"
+  },
+  "assistant": {
+    "title": "Municipal Assistant",
+    "placeholder": "Ask about city services…",
+    "send": "Send",
+    "suggested": "Suggested",
+    "language": "Language"
+  },
+  "energy": {
+    "title": "Energy Dashboard",
+    "your_usage": "Your Usage",
+    "district_avg": "District Average",
+    "solar": "Solar Generated",
+    "sold": "Sold to Grid",
+    "tip": "Savings Tip",
+    "kwh": "kWh",
+    "grid_status": "Grid Status",
+    "normal": "Normal",
+    "outage": "Outage",
+    "degraded": "Degraded"
+  },
+  "mobility": {
+    "title": "Smart Mobility",
+    "plan_trip": "Plan a Trip",
+    "parking": "Parking",
+    "available": "available",
+    "predicted_1h": "predicted in 1h",
+    "full": "Full",
+    "origin": "From",
+    "destination": "To",
+    "search": "Find Route",
+    "walk": "Walk",
+    "bus": "Bus",
+    "metro": "Metro",
+    "tram": "Tram",
+    "total_time": "Total time",
+    "distance": "Distance",
+    "co2_saved": "CO₂ saved",
+    "mins": "min",
+    "km": "km",
+    "kg": "kg"
+  },
+  "common": {
+    "error": "Something went wrong. Please try again.",
+    "retry": "Retry",
+    "loading": "Loading…",
+    "back": "Back"
+  }
+}

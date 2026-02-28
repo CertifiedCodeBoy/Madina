@@ -1,0 +1,85 @@
+{
+  "tabs": {
+    "dashboard": "Tableau de bord",
+    "report": "Signalement",
+    "assistant": "Assistant",
+    "energy": "Énergie",
+    "mobility": "Mobilité"
+  },
+  "dashboard": {
+    "title": "Madina",
+    "subtitle": "Votre ville en un coup d'œil",
+    "aqi": "Qualité de l'air",
+    "transit": "Transport en direct",
+    "disruptions": "Perturbations routières",
+    "good": "Bon",
+    "moderate": "Modéré",
+    "unhealthy": "Mauvais",
+    "loading": "Chargement des données…"
+  },
+  "report": {
+    "title": "Signaler un problème",
+    "subtitle": "Prenez une photo et laissez l'IA la classifier",
+    "take_photo": "Prendre une photo",
+    "choose_photo": "Choisir depuis la galerie",
+    "description": "Ajouter une description (optionnel)",
+    "address": "Adresse",
+    "submit": "Soumettre le signalement",
+    "submitting": "Envoi en cours…",
+    "success": "Signalement soumis ! L'IA traite votre problème.",
+    "ai_result": "Résultat du tri IA",
+    "category": "Catégorie",
+    "severity": "Gravité",
+    "department": "Transmis à",
+    "estimated": "Résolution estimée",
+    "days": "jours",
+    "confidence": "Confiance"
+  },
+  "assistant": {
+    "title": "Assistant municipal",
+    "placeholder": "Posez une question sur les services…",
+    "send": "Envoyer",
+    "suggested": "Suggestions",
+    "language": "Langue"
+  },
+  "energy": {
+    "title": "Tableau énergie",
+    "your_usage": "Votre consommation",
+    "district_avg": "Moyenne du quartier",
+    "solar": "Énergie solaire produite",
+    "sold": "Revendue au réseau",
+    "tip": "Conseil d'économie",
+    "kwh": "kWh",
+    "grid_status": "État du réseau",
+    "normal": "Normal",
+    "outage": "Panne",
+    "degraded": "Dégradé"
+  },
+  "mobility": {
+    "title": "Mobilité intelligente",
+    "plan_trip": "Planifier un trajet",
+    "parking": "Parkings",
+    "available": "disponibles",
+    "predicted_1h": "prévu dans 1h",
+    "full": "Complet",
+    "origin": "Départ",
+    "destination": "Arrivée",
+    "search": "Trouver un itinéraire",
+    "walk": "Marche",
+    "bus": "Bus",
+    "metro": "Métro",
+    "tram": "Tram",
+    "total_time": "Durée totale",
+    "distance": "Distance",
+    "co2_saved": "CO₂ économisé",
+    "mins": "min",
+    "km": "km",
+    "kg": "kg"
+  },
+  "common": {
+    "error": "Une erreur est survenue. Veuillez réessayer.",
+    "retry": "Réessayer",
+    "loading": "Chargement…",
+    "back": "Retour"
+  }
+}

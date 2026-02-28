@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Madina",
+    "slug": "madina",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1a73e8"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.madina.smartcity",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Used to photograph infrastructure issues for AI triage.",
+        "NSLocationWhenInUseUsageDescription": "Used to attach precise location to reported issues and show nearby services.",
+        "NSPhotoLibraryUsageDescription": "Used to select existing issue photos."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1a73e8"
+      },
+      "package": "com.madina.smartcity",
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "ACCESS_FINE_LOCATION",
+        "RECEIVE_BOOT_COMPLETED",
+        "VIBRATE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-camera",
+      ["expo-location", { "locationAlwaysAndWhenInUsePermission": "Allow Madina to use your location."}],
+      ["expo-notifications", { "sounds": ["./assets/notification.wav"] }]
+    ],
+    "scheme": "madina"
+  }
+}
